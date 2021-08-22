@@ -11,9 +11,8 @@
 </head>
 <body>
   <div class="container">
-    <div class="weather">
+    <div class="weather-app-wrapper">
     <div class="weather-app">
-      <div class="overview">
       <form id="search-form" class="mb-3">
         <div class="row">
           <div class="col-9">
@@ -32,24 +31,25 @@
               class="btn btn-primary w-100"
             />
           </div>
-          
+          </div>
         </form>
-      <h1 id="city"></h1> 
+      <div class="overview">
+        <h1 id="city"></h1> 
     <ul>
-      <li>Last updated: <span id="date"></span></li>
+      <li><span id="date"></span></li>
       <li id="description"></li>
     </ul>
     </div>
   <ul>
     <li>Humidity: <span id="humidity"></span>%</li>
-    <li>Wind: <span id="wind"></span> m/h</li>
+    <li>Wind: <span id="wind"></span> km/h</li>
   </ul>
 <div class="row">
 <div class="div col-6">
   <div class="d-flex weather-temperature">
-    <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" id="icon" class="float-right" />
+    <img src="" alt="Clear" id="icon" class="float-right" />
     <div class="float-right">
-      <strong id="temperature">20</strong
+      <strong id="temperature"></strong
       ><span class="units"> °C</span>
     </div>
 </div>
